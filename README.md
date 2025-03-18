@@ -72,16 +72,13 @@ SuperPoint is a state-of-the-art keypoint detection and descriptor extraction al
 ## Installation
 
 ### Clone the Repository:
-```bash
+```
 git clone https://github.com/your-username/superpoint-realsense.git
 cd superpoint-realsense
-
-# SuperPoint with RealSense
-
-## Install pyrealsense2
+```
 
 ### If you have the RealSense SDK installed:
-```bash
+```
 pip install pyrealsense2
 ```
 
@@ -89,7 +86,7 @@ pip install pyrealsense2
 
 ### Running the Script
 To run the script with default settings:
-```bash
+```
 python superpoint_realsense.py --cuda --weights_path models/superpoint_v1.pth --H 480 --W 640
 ```
 
